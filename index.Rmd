@@ -1,0 +1,44 @@
+---
+title: "Welcome to *Huili*'s Website"
+author: "Huili Zheng"
+output:
+  html_document:
+    toc:true
+    toc_floact:true
+---
+
+<center><img src="img/welcome.jpg" style="width:90%"></center>
+
+## My Profile
+
+Hello, this is Huili Zheng, a student studing Biostatistics at [Columbia University Mailman School of Pubilc Health](https://www.mailman.columbia.edu) with well-rounded background in **statistics**, proficiency in building **end-to-end data pipeline** from raw data to deliverables with SQL, Python, R, BI tools like Tableau, and various machine learning algorithms. 
+
+Want to learn more about my experiences?
+
+Sure! You can know me more and see my resume [here](resume.html)!
+
+
+## My Projects
+
+You can view my some projects in data analyses [here]().
+
+## My code 
+
+You can view some available code [here]().
+
+## Visualization 
+
+You can view some visualization examples [here]().
+
+## Contact Me
+
+Huili Zheng \
+Department of Biostatistics \
+Columbia Mailman School of Public Health \
+New York, New York 10032
+
+Email: huilizz@outlook.com
+
+Interested in collaborating with me? please don't hesitate to send me an email. 
+
+
