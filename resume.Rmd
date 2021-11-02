@@ -1,30 +1,82 @@
 ---
-title: "resume"
+title: "Huili Zheng Resume"
 author: "Huili Zheng"
-date: "11/2/2021"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
+<br/>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Education
 
-## R Markdown
+[Columbia University](https://www.mailman.columbia.edu), NY, US, *2021/09 – 2023/05 *
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+**M.S. in Biostatistics**, *Theory & Method track*
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+**Coursework:** Probability, Data Science, Epidemiology, Biostatistical Methods
 
-```{r cars}
-summary(cars)
-```
+<br/>
 
-## Including Plots
+[Sun Yat-sen University](http://www.sysu.edu.cn/en/index.htm), Guangzhou, China, *2015/08 – 2019/06*
 
-You can also embed plots, for example:
+**B.S. in Chemistry** 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+<br/>
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Working Experience
+
+[Shutang Add Care](https://www.add-care.net/), Hong Kong, *06/2020 – 09/2021*
+
+**Data Scientist Intern** 
+
+Accomplishments:
+
+*	Built a machine learning model in Python integrated into Glutrac watch to predict diabetes patients’ glucose level non-invasively with ECG, steps, temperature, three-axis gravitational acceleration data collected by watch.
+
+* Designed experiments and analyzed experimental data, finding the trend of EDA when the experimenter is in different states and verify it through t test, including the experimenter's resting state, work state, exercise state and post-exercise state. The results of the experiment were sorted and displayed online at the Hong Kong Artificial Intelligence and Robots-Smart City Application Seminar.
+
+* Performed feature engineering on the user's physiological indicators such as EDA, ECG, steps, temperature, etc., built and evaluate multi-class classification model: accuracy, recall and F1 score are all as high as 0.9.
+
+* Developed a patent to help users quickly and sustainably relax their bodies through five minutes of exercise in a busy life. Collect users' biometrics data with wearable devices, input into data processing pipeline developed in Python, and determine the users' workout intensity into 3 levels: over, under or perfect workout mode, and to notice users which workout mode they are in.
+
+<br/>
+
+[Qianhai Institute for Innovative Research (QIIR)](http://qiir.org/siteen/), Shenzhen, China, *03/2020 – 06/2020*
+
+**Data Scientist Intern**
+
+Accomplishments:
+
+*	Traced abnormal data, tracked and analyzed business risk indicators, and used Tableau for data interpretation and visualization to senior managers.
+
+*	Based on the assets and liabilities of Chinese households, employed random forest and XGBoost algorithms to filter out the top 13 features that are important to their respective models to predict their total annual income.
+
+*	Used light GBM algorithm to predict the total household income, used k-fold to cross validate the model’s generalizability.
+
+*	Regularized the electronic medical records of three large hospitals to provide clean data for FHIR and smart medical system.
+
+<br/>
+
+
+## Research Projects
+
+[Zhejiang University](https://www.zju.edu.cn/), Hangzhou, China, *09/2019-01/2020*
+
+**Research Assistant**
+
+*	Established mathematical models, underlying frameworks and formed core algorithms.
+
+*	Proposed a new image analysis method combining 3D convolutional neural network, geometric analysis, partial differential equation and graph cut method with high precision and fast processing speed.
+
+*	Created the data driven model and calculated the range of probes to cover to accurately kill tissue.
+
+
+
+
+## Techniques and Skills
+
+**Programming Language**:  C, HTML, Python, R, SQL, Linux, Git
+
+**Software**: Tableau, Microsoft Office
+
