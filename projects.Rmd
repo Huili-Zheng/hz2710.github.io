@@ -1,0 +1,19 @@
+---
+title: "Projects"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Some Homeworks:
+
+* [Building blocks](https://github.com/Huili-Zheng/p8105_hw1_hz2710.git)
+
+* [Data wrangling](https://github.com/Huili-Zheng/p8105_hw2_hz2710.git)
+
+* [Viz+Eda](https://github.com/Huili-Zheng/p8105_hw3_hz2710.git)
