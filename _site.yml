@@ -1,0 +1,29 @@
+name: "Huili Zheng"
+output_dir: "."
+navbar:
+  title: "Home"
+  left:
+    - text: "My Profile"
+      href: resume.html
+    - text: "My Project"
+      href: projects.html
+    - text: "Visualization"
+      menu: 
+      - text: "Plotly Example"
+        href: plotly.html
+      - text: "Dashboard Example 1"
+        href: dashboard1.html
+      - text: "Dashboard Example 2"
+        href: dashboard2.html
+  right:
+    - text: "CV"
+      href: resume.html
+    - icon: fa-paper-plane fa-lg
+      href: mailto:<huilizz@outlook.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/Huili-Zheng
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/huili-zheng-95a3aa182/
+output:
+  html_document:
+    theme: flatly
