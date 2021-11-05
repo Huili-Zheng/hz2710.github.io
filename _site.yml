@@ -25,4 +25,4 @@ navbar:
       href: https://www.linkedin.com/in/huili-zheng-95a3aa182/
 output:
   html_document:
-    theme: flatly
+    theme: cosmo

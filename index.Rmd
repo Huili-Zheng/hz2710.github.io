@@ -10,7 +10,7 @@ output:
 
 </br>
 
-### [My Profile](resume.html)
+## My Profile
 
 Hello, this is Huili Zheng, a student studing Biostatistics at [Columbia University Mailman School of Pubilc Health](https://www.mailman.columbia.edu) with well-rounded background in **statistics**, proficiency in building **end-to-end data pipeline** from raw data to deliverables with SQL, Python, R, BI tools like Tableau, and various machine learning algorithms. 
 
@@ -18,19 +18,23 @@ Want to learn more about my experiences?
 
 Sure! You can know me more and see my resume [here](resume.html)!
 
+</br>
 
-### [My Projects](projects.html)
+## My Projects
 
 You can view my some projects in data analyses [here](projects.html)!
 
+</br>
 
-### [Visualization](index.html)
+## Visualization
 
 You can view some plotly examples [here](plotly.html)!
 
 You can view some dashboard examples [here](dashboard.html)!
 
-### [Contact Me](index.html)
+</br>
+
+## Contact Me
 
 Huili Zheng \
 Department of Biostatistics \

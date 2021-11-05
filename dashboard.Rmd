@@ -41,6 +41,7 @@ Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Chart B 
+
 Distribution of max temperature in three place from 2017 to 2018
 
 ```{r}
@@ -49,6 +50,8 @@ weather_df %>%
 ```
 
 ### Chart C
+
+Distribution of min temperature in three place from 2017 to 2018
 
 ```{r}
 weather_df %>%
