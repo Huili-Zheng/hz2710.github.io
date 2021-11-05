@@ -3,7 +3,7 @@ title: "Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
-    vertical_layout: scroll
+    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
@@ -13,9 +13,10 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-Column {data-width = 600}
----------------------------
-### Chart A: Max temperature in Central Park, Waikiki, Waterhole from 2017 to 2018
+Column {data-width = 650}
+-----------------------------------------------------------------------
+### Chart A
+Max temperature in Central Park, Waikiki, Waterhole from 2017 to 2018
 ```{r}
 weather_df = 
   rnoaa::meteo_pull_monitors(
@@ -36,17 +37,18 @@ weather_df %>%
   plot_ly(x = ~date, y = ~tmax,  color = ~name, type = "scatter", colors = "viridis")
 ```
 
-Column {data-width=400}
----------------------------
+Column {data-width=350}
+-----------------------------------------------------------------------
 
-### Chart B: Distribution of max temperature in three place from 2017 to 2018
+### Chart B 
+Distribution of max temperature in three place from 2017 to 2018
 
 ```{r}
 weather_df %>%
   plot_ly(x = ~name, y = ~tmax, color = ~name, type="violin", colors = "viridis") 
 ```
 
-### Chart C:
+### Chart C
 
 ```{r}
 weather_df %>%

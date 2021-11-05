@@ -1,15 +1,16 @@
 ---
 title: "Welcome to *Huili*'s Website"
-author: "Huili Zheng"
 output:
   html_document:
     toc: true
     toc_floact: true
 ---
 
-<center><img src="img/welcome.png" style="height:90%"></center>
+<center><img src="img/welcome.png" style="weight:90%"></center>
 
-## [My Profile](resume.html)
+</br>
+
+### [My Profile](resume.html)
 
 Hello, this is Huili Zheng, a student studing Biostatistics at [Columbia University Mailman School of Pubilc Health](https://www.mailman.columbia.edu) with well-rounded background in **statistics**, proficiency in building **end-to-end data pipeline** from raw data to deliverables with SQL, Python, R, BI tools like Tableau, and various machine learning algorithms. 
 
@@ -18,16 +19,18 @@ Want to learn more about my experiences?
 Sure! You can know me more and see my resume [here](resume.html)!
 
 
-## [My Projects](projects.html)
+### [My Projects](projects.html)
 
-You can view my some projects in data analyses [here](projects.html).
+You can view my some projects in data analyses [here](projects.html)!
 
 
-## [Visualization ](vis.html)
+### [Visualization](index.html)
 
-You can view some visualization examples [here](vis.html).
+You can view some plotly examples [here](plotly.html)!
 
-## Contact Me
+You can view some dashboard examples [here](dashboard.html)!
+
+### [Contact Me](index.html)
 
 Huili Zheng \
 Department of Biostatistics \
