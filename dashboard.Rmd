@@ -1,20 +1,21 @@
 ---
-title: "Plotly"
-author: "Huili Zheng"
-date: "11/2/2021"
+title: "Dashboard"
 output: 
-  html_document:
-    code_folding: hide
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
 ---
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-library(plotly)
+library(flexdashboard)
 library(p8105.datasets)
+library(plotly)
 ```
 
-## Plotly examples
-
+Column {data-width = 600}
+---------------------------
+### Chart A: Max temperature in Central Park, Waikiki, Waterhole from 2017 to 2018
 ```{r}
 weather_df = 
   rnoaa::meteo_pull_monitors(
@@ -33,16 +34,21 @@ weather_df =
   select(name, id, everything())
 weather_df %>%
   plot_ly(x = ~date, y = ~tmax,  color = ~name, type = "scatter", colors = "viridis")
-
 ```
+
+Column {data-width=400}
+---------------------------
+
+### Chart B: Distribution of max temperature in three place from 2017 to 2018
 
 ```{r}
 weather_df %>%
   plot_ly(x = ~name, y = ~tmax, color = ~name, type="violin", colors = "viridis") 
 ```
 
+### Chart C:
+
 ```{r}
 weather_df %>%
   plot_ly(x = ~name, y = ~tmin, color = ~name, type = "box", colors = "viridis")
 ```
-
